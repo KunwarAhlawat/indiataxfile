@@ -1,0 +1,233 @@
+//hero section style
+.home-hero {
+
+    background-color: $section-bg-alt-2;
+
+
+
+    .home-hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        a {
+            margin-top: 20px;
+            align-self: flex-start;
+        }
+    }
+
+    .hero-img {
+        img {
+            object-fit: contain;
+        }
+    }
+}
+
+//small cta style
+.home-small-cta {
+    background-color: $secondary;
+    padding: 20px 0;
+
+
+}
+
+//services style
+.home-services-section {
+    background-color: $section-bg-alt-2;
+
+    .home-service-items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        .home-service-item {
+
+            // box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            box-shadow: $shadow1;
+            border: $border1;
+            margin-bottom: 40px;
+            width: calc(25% - 20px);
+
+            h5 {
+                padding: 20px 20px 0px 20px;
+
+            }
+
+            p {
+                padding: 0px 20px;
+            }
+
+            a {
+                margin: 0px 0px 20px 20px;
+            }
+
+            /* Tablet styles */
+            @media (max-width: 768px) {
+
+                width: calc(50% - 20px);
+
+            }
+
+            /* Mobile styles */
+            @media (max-width: 480px) {
+
+                width: calc(100% - 20px);
+
+            }
+
+        }
+    }
+
+}
+
+//whyus style
+.home-whyus-section {
+
+    background-color: $primary;
+
+    .home-whyus-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+        p {
+            text-align: start;
+            color: $light;
+        }
+
+        ul {
+            margin-top: 20px;
+            padding: 0px;
+
+            li {
+                list-style: none;
+
+                i {
+                    color: $secondary;
+                    margin-right: 8px;
+                }
+
+                span {
+                    color: $light;
+                    font-size: 1rem;
+                    margin-bottom: 0px;
+                }
+
+            }
+        }
+    }
+
+    .home-whyus-img {
+
+        object-fit: cover;
+
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+//about style
+.home-about-section {
+    .home-about-content {
+
+
+        a {
+            margin-top: 20px;
+        }
+    }
+}
+
+//home page blog section style
+
+.blog-section {
+    background-color: $section-bg-alt-2;
+
+    .blog-item {
+        margin-top: 20px;
+        box-shadow: $shadow1;
+        border: $border1;
+        padding: 20px;
+
+        .blog-date {
+            margin-top: 10px;
+
+            date {
+
+                color: $secondary;
+                font-size: $small-font;
+            }
+
+            span {
+                color: $dark;
+                color: $secondary;
+                font-size: $small-font;
+                font-weight: $semi;
+            }
+
+
+        }
+
+        .blog-text {
+
+            h6 {
+                margin: 10px 0px;
+            }
+
+            p {
+                margin-top: 10px;
+            }
+        }
+
+    }
+}
+
+//homepage news section
+.news-section {
+    .news-area {
+        .card {
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            margin-bottom: 20px;
+
+            img {
+                height: 150px;
+                width: 150px;
+                object-fit: auto;
+            }
+
+            .card-body {
+                .news-date {
+                    i {
+                        color: $secondary;
+                        margin-right: 4px;
+                    }
+
+                    span {
+                        font-size: $small-font;
+                        color: $secondary;
+                        margin-right: 8px;
+                    }
+                }
+
+                .post-btn {
+                    color: $secondary;
+                    border-color: $secondary;
+
+                    &:hover {
+                        color: $info;
+                        border-color: $info;
+                    }
+                }
+
+            }
+        }
+    }
+}

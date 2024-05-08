@@ -1,0 +1,86 @@
+.blog-cover-image {
+    background-image: url("https://indiataxfile.com/wp-content/uploads/2024/04/indiataxfile-blog.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .blog-content {
+        position: relative;
+        z-index: 1;
+        color: $light;
+        padding: 20px;
+        text-align: center; // Center align the content
+
+        h1 {
+            color: $info;
+            font-weight: $bold;
+        }
+
+        @media (max-width: 768px) {
+            padding: 10px; // Decrease padding on smaller screens
+        }
+    }
+
+    @media (max-width: 768px) {
+        height: 300px; // Decrease height on smaller screens
+    }
+}
+
+
+
+article {
+    margin-bottom: 40px;
+
+    img {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .entry-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        a {
+            color: $primary;
+            text-decoration: none;
+
+            &:hover {
+                color: $info;
+            }
+        }
+    }
+
+    .entry-meta {
+        font-size: $small-font;
+
+        .posted-label {
+            color: $secondary;
+            margin-right: 5px;
+        }
+
+        .posted-date {
+            color: $dark-grey;
+        }
+    }
+
+    .entry-content {
+        margin-top: 10px;
+
+        p {
+            margin-bottom: 15px;
+        }
+    }
+
+    .entry-footer {
+        margin-top: 20px;
+        color: $secondary;
+        font-size: $smaller-font;
+    }
+}

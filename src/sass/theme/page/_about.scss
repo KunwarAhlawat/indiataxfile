@@ -1,0 +1,36 @@
+//team section style
+.about-team-section {
+    background-color: $section-bg-alt-2;
+
+    .about-team-item {
+        box-shadow: $shadow1;
+        border: $border1;
+        margin-top: 40px;
+        padding-bottom: 20px;
+
+
+        img {
+
+            object-fit: cover;
+        }
+
+        .about-team-content {
+            margin-left: 20px;
+            margin-top: 20px;
+
+            span {
+                display: block;
+                margin-bottom: 10px;
+                color: $secondary;
+            }
+
+            p {
+                text-overflow: ellipsis;
+                overflow: hidden;
+                max-height: 80px;
+                min-height: 80px;
+            }
+        }
+
+    }
+}

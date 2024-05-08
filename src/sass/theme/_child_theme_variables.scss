@@ -1,0 +1,50 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+// Custom Colors
+$deep-blue: #001F3F; // Main primary
+$emerald-green: #2ECC71; // Secondary
+$gold-amber: #FFD700; // Highlight/CTA
+$light-grey: #F0F0F0; // Section background
+$dark-grey: #213343; // Subtle bg/border
+$white: #FFFFFF; // Main bg
+
+// Bootstrap Color Overrides
+$primary: $deep-blue;
+$secondary: $emerald-green;
+$success: $emerald-green;
+$info: $gold-amber;
+$warning: $gold-amber;
+$danger: $deep-blue;
+$light: $white;
+$dark: $dark-grey;
+
+
+// Alternate Section Background Colors for Smooth Scrolling
+$section-bg-alt-1: #ECEFF1;
+$section-bg-alt-2: #FAFAFA;
+$section-bg-alt-3: #F5F5F5;
+$section-bg-alt-4: #EBEBEB;
+
+
+
+// Custom Typography
+
+// Font Families
+$heading-font: "Lexend Deca", sans-serif;
+
+$body-font: "Lexend Deca", sans-serif;
+
+
+// Font Weights
+$semi: 600;
+$regular: 400;
+$bold: 700;
+$small-font: 0.875rem;
+$smaller-font: 0.75rem;
+
+$shadow1: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+$shadow2: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+$border1: 1px solid rgba(0, 0, 0, 0.04);

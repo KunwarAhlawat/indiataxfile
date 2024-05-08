@@ -1,0 +1,23 @@
+//cta style
+
+.cta-section {
+    background-color: $primary;
+
+
+    .cta-content {
+        color: $light;
+        text-align: center;
+
+        p {
+            margin: 20px 0px;
+
+        }
+
+        a {
+            &:hover {
+                background-color: $light;
+                color: $dark;
+            }
+        }
+    }
+}

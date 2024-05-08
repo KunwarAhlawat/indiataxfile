@@ -1,0 +1,51 @@
+//hero area
+.funnel-hero-area {
+    background-color: $primary;
+
+    .funnel-hero-content {
+        text-align: center;
+
+        h1 {
+            font-size: 96px;
+            font-weight: bold;
+            margin: 10px 0px;
+            color: $info;
+            line-height: 120%;
+        }
+
+        h4 {
+            color: $light;
+
+        }
+
+        h3 {
+            color: $light;
+        }
+
+        /* Media query for mobile devices */
+        @media only screen and (max-width: 767px) {
+            h1 {
+                font-size: 60px;
+                /* Font size for mobile devices */
+            }
+        }
+    }
+
+    .funnel-hero-button {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+
+        .btn-cta,
+        .btn-secondary {
+            &:hover {
+                background-color: $light;
+                color: $dark;
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offcanvas Menu</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Main Offcanvas Menu */
+        .offcanvas-start {
+            width: 300px;
+            /* Adjust the width as needed */
+        }
+
+        /* Offcanvas Menus on the Right Side */
+        .offcanvas-end {
+            width: 300px;
+            /* Adjust the width as needed */
+        }
+
+        /* Offcanvas Header */
+        .offcanvas-header {
+            padding: 1rem;
+        }
+
+        /* Offcanvas Body */
+        .offcanvas-body {
+            padding: 1rem;
+        }
+
+        /* Offcanvas Trigger Buttons */
+        .btn-offcanvas {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main Offcanvas Menu Trigger Button -->
+    <button class="btn btn-primary btn-offcanvas" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#mainOffcanvas" aria-controls="mainOffcanvas">
+        Open Main Offcanvas
+    </button>
+
+    <!-- Main Offcanvas Menu -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mainOffcanvas" aria-labelledby="mainOffcanvasLabel">
+        <div class="offcanvas-header">
+            <!-- Offcanvas Header with Close Button -->
+            <h5 id="mainOffcanvasLabel">Main Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!-- Main Offcanvas Menu Items -->
+            <ul class="list-group">
+                <li class="list-group-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1"
+                    aria-controls="offcanvasRight1">Item 1</li>
+                <li class="list-group-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2"
+                    aria-controls="offcanvasRight2">Item 2</li>
+                <li class="list-group-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight3"
+                    aria-controls="offcanvasRight3">Item 3</li>
+                <li class="list-group-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4"
+                    aria-controls="offcanvasRight4">Item 4</li>
+                <li class="list-group-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight5"
+                    aria-controls="offcanvasRight5">Item 5</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Offcanvas Menus for Right Side -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRight1Label">
+        <div class="offcanvas-header">
+            <!-- Offcanvas Header with Close Button -->
+            <h5 id="offcanvasRight1Label">Right Offcanvas 1</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!-- Right Offcanvas 1 Content -->
+            Right Offcanvas 1 Content
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRight2Label">
+        <div class="offcanvas-header">
+            <!-- Offcanvas Header with Close Button -->
+            <h5 id="offcanvasRight2Label">Right Offcanvas 2</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!-- Right Offcanvas 2 Content -->
+            Right Offcanvas 2 Content
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRight3Label">
+        <div class="offcanvas-header">
+            <!-- Offcanvas Header with Close Button -->
+            <h5 id="offcanvasRight3Label">Right Offcanvas 3</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!-- Right Offcanvas 3 Content -->
+            Right Offcanvas 3 Content
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRight4Label">
+        <div class="offcanvas-header">
+            <!-- Offcanvas Header with Close Button -->
+            <h5 id="offcanvasRight4Label">Right Offcanvas 4</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!-- Right Offcanvas 4 Content -->
+            Right Offcanvas 4 Content
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight5" aria-labelledby="offcanvasRight5Label">
+        <div class="offcanvas-header">
+            <!-- Offcanvas Header with Close Button -->
+            <h5 id="offcanvasRight5Label">Right Offcanvas 5</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!-- Right Offcanvas 5 Content -->
+            Right Offcanvas 5 Content
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

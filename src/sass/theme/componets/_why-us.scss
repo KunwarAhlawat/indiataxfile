@@ -1,0 +1,34 @@
+//Style for Why Choose us Area
+.why-us-area {
+    .section-title {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .why-us-item-area {
+        .why-us-item {
+            text-align: center;
+            margin-bottom: 30px;
+
+            .item-img {
+                img {
+                    border-radius: 50%;
+                    max-width: 100%;
+                    height: auto;
+                    vertical-align: top;
+                }
+            }
+
+            .sub-info {
+                margin-top: 10px;
+                color: $dark;
+            }
+        }
+    }
+
+    .why-choose-center-image {
+        img {
+            border-radius: 50%;
+        }
+    }
+}

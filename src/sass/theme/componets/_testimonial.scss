@@ -1,0 +1,37 @@
+//testimonial style
+.testimonial-section {
+    background-color: $section-bg-alt-1;
+
+    .testimonial {
+
+        margin-top: 40px;
+        background-color: $section-bg-alt-2;
+        padding: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+        .testimonial-iconbox {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 20px;
+
+            i {
+                font-size: 48px;
+                color: $primary;
+                margin-right: 20px;
+            }
+
+            span {
+                line-height: 100%;
+                font-size: $small-font;
+                font-weight: $bold;
+                color: $secondary;
+                text-align: start;
+
+            }
+        }
+
+
+    }
+}

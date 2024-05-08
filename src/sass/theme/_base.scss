@@ -1,0 +1,60 @@
+/* --------------------------------------------
+    Typography 
+ ---------------------------------------------- */
+body {
+    font-family: $body-font;
+    color: $dark-grey;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font;
+}
+
+
+
+a {
+    color: $primary;
+    text-decoration: none;
+    outline: none !important;
+    cursor: pointer;
+
+    &:hover {
+        color: $info;
+    }
+}
+
+
+
+p,
+li {
+    font-size: 1.125rem;
+    line-height: 1.78;
+}
+
+@media (max-width: 768px) {
+
+    p,
+    li {
+        font-size: 1.125rem;
+        line-height: 1.78;
+    }
+}
+
+
+
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}

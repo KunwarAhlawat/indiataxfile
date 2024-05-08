@@ -1,0 +1,85 @@
+// helper class
+.section-padding {
+    padding: 100px 0px;
+}
+
+.top-heading {
+    color: $secondary;
+    font-weight: $bold;
+    letter-spacing: 1px;
+}
+
+.section-heading-primary {
+    color: $primary;
+    font-weight: $bold;
+    letter-spacing: -1px;
+}
+
+.section-heading-light {
+    color: $light;
+    font-weight: $bold;
+    letter-spacing: -1px;
+}
+
+.sub-heading-dark {
+    display: block;
+    color: $dark;
+    letter-spacing: 1px;
+    font-size: 1rem;
+
+
+}
+
+.sub-heading-light {
+    display: block;
+    color: $light;
+    letter-spacing: 1px;
+    font-size: 1rem;
+
+}
+
+.home-hero-title {
+    font-size: 3rem;
+    color: $primary;
+}
+
+// Media query for tablets (portrait and landscape)
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .home-hero-title {
+        font-size: calc(3 * 0.9rem);
+    }
+}
+
+// Media query for mobile devices
+@media only screen and (max-width: 599px) {
+    .home-hero-title {
+        font-size: calc(3 * 0.8rem);
+    }
+}
+
+
+//Pragraph Box style
+.parabox {
+    font-size: $small-font;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
+
+.parabox-testimonail {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+}
+
+.parabox-blog {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}

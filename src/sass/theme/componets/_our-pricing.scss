@@ -1,0 +1,54 @@
+//Our Pricing Style
+.our-pricing-area {
+    background-color: $dark;
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .price-item {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        background-color: $light;
+        padding: 40px 30px;
+        margin: 20px;
+        border-radius: 10px;
+
+
+        h4 {}
+
+        .price {
+            line-height: 100%;
+            font-size: 2.5rem;
+            color: $secondary;
+            font-weight: $semi;
+        }
+
+        .sub-price {
+            margin-top: 4px;
+            line-height: 100%;
+            font-size: $small-font;
+        }
+
+        .price-content {
+            margin-top: 20px;
+            padding: 0;
+
+
+            li {
+                list-style: none;
+
+                span {
+                    margin-left: 10px;
+                }
+            }
+
+        }
+    }
+
+    .btn-cta {
+        margin-top: 20px;
+    }
+}

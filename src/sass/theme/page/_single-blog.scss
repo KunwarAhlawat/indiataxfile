@@ -1,0 +1,92 @@
+// Your existing SCSS code
+.single-hero {
+    background-color: $primary;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .single-hero-content {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $light;
+
+        .single-hero-title {}
+
+        .single-meta {
+            margin-top: 20px;
+        }
+    }
+
+    .single-img {
+        height: 100%;
+        padding: 20px;
+
+        img {
+            object-fit: cover;
+        }
+    }
+}
+
+.single-content {
+    margin-top: 30px;
+    position: relative;
+
+    #left-sidebar {
+        position: sticky;
+        top: 100px;
+        height: 100%;
+
+        margin-left: 20px;
+
+        h5 {
+            margin-bottom: 20px;
+            font-weight: $bold;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                margin-bottom: 10px;
+                font-size: $small-font;
+                list-style: none;
+                color: $dark;
+                line-height: 120%;
+            }
+        }
+
+        #toc-list {
+
+            a.active {
+                color: $primary;
+                /* Change color as desired */
+                font-weight: bold;
+                /* Change font weight as desired */
+            }
+        }
+
+
+
+
+        /* Adjust as per your design */
+    }
+
+    #right-sidebar {
+        position: sticky;
+        top: 100px;
+        height: 100%;
+    }
+}
+
+
+
+
+@media (min-width: 1400px) {
+    #content {
+        margin: 0 auto;
+    }
+}
